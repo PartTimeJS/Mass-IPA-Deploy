@@ -1,4 +1,4 @@
-# DepoloyIPA
+# Mass IPA Deploy or Remove
 
 1: git clone the repo and then cd to DepoloyIPA
 
@@ -14,3 +14,5 @@
 5: Edit devices.txt and add all of your UUIDs, one per line. Save.
 
 5: Run `./deploy.sh` in Terminal
+
+6: To Remove a specifi app, open remove.sh and change the target bundle to remove and run `./remove.sh` in Terminal within the repo directory.
